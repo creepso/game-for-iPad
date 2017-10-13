@@ -37,7 +37,7 @@ private Rigidbody2D rb;
 				Application.LoadLevel ("scene2");
 			}
 			if (col.gameObject.name == "endLevel2") {
-				Application.LoadLevel ("scene5");
+				Application.LoadLevel ("scene4");
 			}
 			if (col.gameObject.name == "endLevel3") {
 				Application.LoadLevel ("scene3");
@@ -49,5 +49,5 @@ private Rigidbody2D rb;
 	GUI.Box (new Rect(0,0,100,25), "Stars :" +score);
 
 	}
-
+	
 }
